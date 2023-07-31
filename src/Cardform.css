@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Dangrek&family=Inconsolata&family=Inter&family=Roboto&family=Space+Mono&display=swap");
+
+.card {
+  position: absolute;
+  z-index: 33;
+  width: 447px;
+  box-sizing: border-box;
+  height: 246px;
+  left: 122px;
+  top: 200px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 10px;
+  background-image: url(../src/image/Frame\ 2.png);
+}
+
+.cardback-face {
+  background-image: url(../src//image/backCard.png);
+  position: absolute;
+  width: 448px;
+  height: 246px;
+  left: 199px;
+  top: 487px;
+  box-shadow: 10px 11px 62px rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  z-index: 34;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.img {
+  height: 100vh;
+  width: 30vw;
+  background: linear-gradient(
+      26.99deg,
+      rgba(69, 26, 78, 0.2) 52.61%,
+      rgba(60, 13, 13, 0.2) 95.07%
+    ),
+    linear-gradient(
+      164.67deg,
+      rgba(22, 4, 31, 0.98) 4.47%,
+      #380c4a 15.5%,
+      #3b0e46 19.19%,
+      #3d0f42 23.38%,
+      #441436 30.26%,
+      #33254e 36.4%,
+      #2b2d59 42.79%,
+      #292654 47.99%,
+      #271f4f 52.8%,
+      #240d37 64.72%,
+      #22052d 79.1%
+    );
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rightsection {
+  box-sizing: border-box;
+  height: 100vh;
+  width: 70vw;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form div {
+  margin-bottom: 26px;
+}
+
+::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.125em;
+  color: #bbb9bc;
+}
+.card-n {
+  padding-bottom: 4px;
+}
+.card-n label {
+  display: block;
+  padding-bottom: 12px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.155em;
+  color: #404040;
+}
+.card-n input {
+  box-sizing: border-box;
+  width: 33vw;
+  height: 42px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  border-radius: 6px;
+  padding: 2px;
+  padding-left: 18px;
+  font-size: 18px;
+}
+.crd-date {
+  padding-bottom: 4px;
+}
+
+.crd-date label {
+  display: block;
+  padding-bottom: 12px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.155em;
+  color: #404040;
+}
+
+.crd-date input {
+  width: 5vw;
+  height: 42px;
+  margin-right: 12px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  border-radius: 6px;
+  padding: 2px;
+  padding-left: 18px;
+  font-size: 18px;
+}
+
+.crd-cvc {
+  padding-bottom: 4px;
+}
+.crd-cvc label {
+  display: block;
+  padding-bottom: 12px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.155em;
+  color: #404040;
+}
+
+.crd-cvc input {
+  width: 10vw;
+  height: 42px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  border-radius: 6px;
+  padding: 2px;
+  padding-left: 18px;
+  font-size: 18px;
+}
+
+.expiry {
+  display: flex;
+  justify-content: space-between;
+  width: 33vw;
+}
+.expiry div {
+  margin-bottom: 0px;
+}
+.mm {
+  width: 10vw;
+}
+.yy {
+  width: 10vw;
+}
+.cvv {
+  width: 20vw;
+}
+.btn-cnf {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+.btn-cnf button {
+  width: 33vw;
+  height: 53px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+
+  color: #ffffff;
+  background: #220930;
+  border-radius: 6px;
+}
+
+.error {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #f81212;
+}
+.toast-message {
+  color: white;
+  font-size: 20px;
+  background: linear-gradient(
+      26.99deg,
+      rgba(69, 26, 78, 0.2) 52.61%,
+      rgba(60, 13, 13, 0.2) 95.07%
+    ),
+    linear-gradient(
+      164.67deg,
+      rgba(22, 4, 31, 0.98) 4.47%,
+      #380c4a 15.5%,
+      #3b0e46 19.19%,
+      #3d0f42 23.38%,
+      #441436 30.26%,
+      #33254e 36.4%,
+      #2b2d59 42.79%,
+      #292654 47.99%,
+      #271f4f 52.8%,
+      #240d37 64.72%,
+      #22052d 79.1%
+    );
+}
+@media only screen and (min-width: 1030px) and (max-width: 1366px) {
+  .card {
+    top: 65px;
+  }
+  .cardback-face {
+    top: 350px;
+  }
+  .rightsection {
+    justify-content: end;
+    padding: 0px;
+    padding-right: 130px;
+  }
+}

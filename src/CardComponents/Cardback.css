@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Dangrek&family=Inconsolata&family=Inter&family=Roboto&family=Space+Mono&display=swap");
+
+.cardback-face p {
+  text-align: end;
+  margin-top: 106px;
+  padding: 0px 50px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 31px;
+  letter-spacing: 0.18em;
+  color: #ffffff;
+}
